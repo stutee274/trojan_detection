@@ -1,0 +1,5 @@
+This project detects hardware Trojans in FPGA designs by analyzing signal activity from VCD (Value Change Dump) files. A total of 12 Verilog testbenches were created—comprising both trusted and Trojan-infected modules. The system extracts side-channel features such as toggle rate, glitches, entropy, and jump patterns from critical signals, and uses a trained Random Forest model to classify new designs with high accuracy.each day i will be adding new files to train my model properly so that it will correctly predict trojan values from trusted files.
+
+
+IN result.png  it has been shown how the model is giving probability and accuracy results by connecting predicting when i add a new file dumptrojanT.vcd in vcd_dumps and my model found it to be trojan.
+I am learning to do side channel analysis in hardware level. 

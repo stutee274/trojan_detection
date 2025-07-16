@@ -1,0 +1,5 @@
+file,signal,toggle_rate,avg_jump,jump_std,jump_max,glitches,mean_time_diff,bitflip_rate,entropy,label,auto_label
+dumptrojan1.vcd,count_trojan,95.65,6.83,3.24,11,0,10454.55,0.42,3.9,1,1
+dumptrojan2.vcd,count_trojan,96.97,3.19,3.56,15,0,10147.06,0.44,3.73,1,1
+dumptrusted1.vcd,count_trusted,97.09,1.86,3.39,15,0,9900.0,0.43,3.99,0,1
+dumptrusted2.vcd,count_trusted,98.49,1.86,0.0,15,0,10263.16,0.4,3.42,0,1
